@@ -1,0 +1,17 @@
+pip3 freeze > requirements.txt
+```
+
+Then check if these are in the file:
+```
+PyPDF2
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-groq
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+streamlit
+python-dotenv
+google-generativeai
